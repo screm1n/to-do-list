@@ -1,8 +1,9 @@
 html {
   background-color: #e4e9fd;
-  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
+  background-image: -webkit-linear-gradient(65deg, #a200ff 50%, #e4e9fd 50%);
   min-height: 1000px;
-  font-family: "helvetica neue";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
 }
 body {
   display: flex;
@@ -28,7 +29,7 @@ h1 {
 }
 
 #heading {
-  background-color: #a683e3;
+  background-color: #a200ff;
   text-align: center;
 }
 form.edit {
@@ -68,7 +69,7 @@ button.add {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #a683e3;
+  background-color: #a200ff;
   color: #fff;
   font-size: 30px;
   border-width: 0;
@@ -98,7 +99,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #a683e3;
+  box-shadow: inset 0 -3px 0 0 #a200ff;
 }
 
 ::placeholder {
